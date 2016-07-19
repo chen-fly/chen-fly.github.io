@@ -6,7 +6,7 @@ angular.module('home.controller', [])
     $stateProvider
       .state('tabs.home.shome',{
         url: '/shome',
-        templateUrl: './tpls/home/home-shome.html'
+        templateUrl: '/mymemebox/tpls/home/home-shome.html'
         // onEnter:function () {
         //   getTotleWidth($(".home-nav .list .item"));
         //   setWidth($(".t-rush-pro"),getTotleWidth($(".t-rush-pro .pro-buy")));
@@ -14,27 +14,27 @@ angular.module('home.controller', [])
       })
       .state('tabs.home.china',{
         url: '/china',
-        templateUrl: './tpls/home/home-china.html'
+        templateUrl: '/mymemebox/tpls/home/home-china.html'
       })
       .state('tabs.home.week',{
         url: '/week',
-        templateUrl: './tpls/home/home-week.html'
+        templateUrl: '/mymemebox/tpls/home/home-week.html'
       })
       .state('tabs.home.mask',{
         url: '/mask',
-        templateUrl: './tpls/home/home-mask.html'
+        templateUrl: '/mymemebox/tpls/home/home-mask.html'
       })
       .state('tabs.home.korea',{
         url: '/korea',
-        templateUrl: './tpls/home/home-korea.html'
+        templateUrl: '/mymemebox/tpls/home/home-korea.html'
       })
       .state('tabs.home.makeup',{
         url: '/makeup',
-        templateUrl: './tpls/home/home-makeup.html'
+        templateUrl: '/mymemebox/tpls/home/home-makeup.html'
       })
       .state('tabs.home.beamakeup',{
         url: '/beamakeup',
-        templateUrl: './tpls/home/home-beamakeup.html'
+        templateUrl: '/mymemebox/tpls/home/home-beamakeup.html'
       });
 })
 

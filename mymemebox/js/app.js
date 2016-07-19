@@ -17,14 +17,14 @@ angular.module('starter', ['ionic', 'home.controller', 'memebox.controller', 'ki
   $stateProvider
     .state('tabs', {
       url: '/tab',
-      templateUrl: './tpls/tabs.html',
+      templateUrl: '/mymemebox/tpls/tabs.html',
       //controller: 'tabController'
     })
     .state('tabs.home', {
       url: '/home',
       views: {
         'home-tab': {
-          templateUrl: './tpls/home.html',
+          templateUrl: '/mymemebox/tpls/home.html',
           controller: 'home.controller'
         }
       }
@@ -33,7 +33,7 @@ angular.module('starter', ['ionic', 'home.controller', 'memebox.controller', 'ki
       url: '/memebox',
       views: {
         'memebox-tab': {
-          templateUrl: './tpls/memebox.html',
+          templateUrl: '/mymemebox/tpls/memebox.html',
           controller: 'memeboxController'
         }
       }
@@ -42,7 +42,7 @@ angular.module('starter', ['ionic', 'home.controller', 'memebox.controller', 'ki
       url: '/kinds',
       views: {
         'kinds-tab': {
-          templateUrl: './tpls/kinds.html',
+          templateUrl: '/mymemebox/tpls/kinds.html',
           controller: 'kindsController'
         }
       }
@@ -51,7 +51,7 @@ angular.module('starter', ['ionic', 'home.controller', 'memebox.controller', 'ki
       url: '/cart',
       views: {
         'cart-tab': {
-          templateUrl: './tpls/cart.html',
+          templateUrl: '/mymemebox/tpls/cart.html',
           controller: 'cartController'
         }
       }
@@ -60,7 +60,7 @@ angular.module('starter', ['ionic', 'home.controller', 'memebox.controller', 'ki
       url: '/my',
       views: {
         'my-tab': {
-          templateUrl: './tpls/my.html',
+          templateUrl: '/mymemebox/tpls/my.html',
           controller: 'myController'
         }
       }

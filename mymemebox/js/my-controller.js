@@ -7,6 +7,6 @@ angular.module('my.controller', ['ui.router'])
   $stateProvider
     .state('my-set',{
       url:'tab/my/set',
-      templateUrl:'./tpls/my/my-set.html'
+      templateUrl:'/mymemebox/tpls/my/my-set.html'
     })
 })
